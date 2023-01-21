@@ -21,8 +21,8 @@ const Navbar = () => {
           <p className='pl-4 text-xl'>Chicken</p>
           <p className='text-xl font-semibold'>Benny</p>
         </div>
-        <div>
-          <ul className='hidden md:flex pr-4'>  
+        <div className='mx-6'>
+          <ul className='hidden md:flex'>  
             <Link href='/'>
               <li className="ml-10 text-xl font-semibold uppercase hover:border-b">Home</li>
             </Link>
