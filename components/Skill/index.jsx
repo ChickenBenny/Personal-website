@@ -13,7 +13,7 @@ const Skill = () => {
       <h2 className='text-slate-400-'>
         Web development
       </h2>
-      <div className='py-2 grid grid-cols-3 lg:grid-cols-4 gap-8'>          
+      <div className='py-2 grid grid-cols-3 lg:grid-cols-4 gap-4'>          
         <div className='p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
           <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
