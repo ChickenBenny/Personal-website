@@ -1,6 +1,5 @@
 import React from "react";
 import Skill from "../Skill";
-import Experience from "../Experience";
 
 const About = () => {
   return (
@@ -21,7 +20,6 @@ const About = () => {
           <div className='border-b border-green-300 my-4 text-black' />
         </div>
         <Skill />
-        <Experience />
       </div>
     </div>
   );
