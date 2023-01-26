@@ -2,9 +2,9 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="w-full h-screen flex">
+    <div className="w-full min-h-screen flex">
       <div className='max-w-screen-xl	w-full h-full my-10 mx-auto p-2 justify-center items-center'>
-        <h2 className='text-center py-10 text-slate-400-'>
+        <h2 className='text-center py-4 text-slate-400-'>
           Work Experience
         </h2>
         <div className='py-8 mx-10'>

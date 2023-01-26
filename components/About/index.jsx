@@ -3,7 +3,7 @@ import Skill from "../Skill";
 
 const About = () => {
   return (
-    <div className='w-full h-screen flex text-center'>
+    <div className='w-full min-h-screen flex text-center'>
       <div className='max-w-screen-xl	w-full mx-auto p-2 flex flex-col justify-center items-center'>
         <div>
           <p className='py-2 text-2xl text-slate-200'>
