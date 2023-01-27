@@ -10,7 +10,7 @@ const Skill = () => {
       <p className='py-2 text-2xl text-slate-200'>
         I am familiar with
       </p>
-      <h2 className='text-slate-400-'>
+      <h2 className='text-amber-300'>
         Web development
       </h2>
       <div className='py-2 grid grid-cols-3 lg:grid-cols-4 gap-4'>          
@@ -96,7 +96,7 @@ const Skill = () => {
         </div>
       </div>
 
-      <h2 className='pt-2 text-slate-400-'>
+      <h2 className='pt-2 text-amber-300'>
         Data Engineering
       </h2>
       <div className='py-2 grid grid-cols-3 lg:grid-cols-4 gap-8'>          

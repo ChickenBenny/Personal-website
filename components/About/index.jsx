@@ -9,7 +9,7 @@ const About = () => {
           <p className='py-2 text-2xl text-slate-200'>
             ABOUT
           </p>
-          <h2 className='text-slate-400-'>
+          <h2 className='text-amber-300'>
             More About Me
           </h2>
           <p className='py-2 text-gray-400 m-auto'>
