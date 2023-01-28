@@ -3,7 +3,7 @@ import { BsLinkedin, BsGithub, BsMedium, BsFacebook } from "react-icons/bs";
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen flex text-center">
+    <div id='hero' className="w-full h-screen flex text-center">
       <div className='max-w-screen-xl	w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <h1 className='py-4 text-slate-200'>

@@ -9,7 +9,7 @@ import ProjectContainer from "../ProjectContainer";
 
 const Project = () => {
   return (
-    <div className='w-full min-h-screen text-center'>
+    <div id='project' className='w-full min-h-screen text-center'>
       <div className='max-w-screen-xl mx-auto  px-2 py-16'>
         <h2 className='py-2 text-2xl text-slate-200'>
           Project

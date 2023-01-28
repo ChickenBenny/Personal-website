@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { FaHome } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
@@ -8,13 +8,33 @@ import { BsLinkedin, BsGithub, BsMedium, BsFacebook } from "react-icons/bs";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
+  const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState('#0c1d25');
   
   const handleShow = () => {
     setShow(!show);
   };
+  console.log(shadow)
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+    window.addEventListener('scroll', handleShadow);
+  }, []);
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100]">
+    <div 
+      style={{ backgroundColor: `${navBg}` }}
+      className={
+        shadow 
+          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
+          : 'fixed w-full h-20 z-[100]'
+      }
+    >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <div className='flex pl-4 items-center'>
           <FaHome size={40} />
@@ -23,20 +43,17 @@ const Navbar = () => {
         </div>
         <div className='mx-6'>
           <ul className='hidden md:flex'>  
-            <Link href='/'>
+            <Link href='/#hero' scroll={false}>
               <li className="ml-10 text-xl font-semibold uppercase hover:border-b">Home</li>
             </Link>
-            <Link href='#about'>
+            <Link href='/#about' scroll={false}>
               <li className="ml-10 text-xl font-semibold uppercase hover:border-b">About</li>
             </Link>
-            <Link href='#skill'>
-              <li className="ml-10 text-xl font-semibold uppercase hover:border-b">Skill</li>
+            <Link href='/#experience' scroll={false}>
+              <li className="ml-10 text-xl font-semibold uppercase hover:border-b">Experience</li>
             </Link>
-            <Link href='#project'>
+            <Link href='/#project' scroll={false}>
               <li className="ml-10 text-xl font-semibold uppercase hover:border-b">Project</li>
-            </Link>
-            <Link href='#contact'>
-              <li className="ml-10 text-xl font-semibold uppercase hover:border-b">Contact</li>
             </Link>
           </ul>
           <div onClick={handleShow} className='pr-4 md:hidden'>
@@ -63,17 +80,14 @@ const Navbar = () => {
               <Link href='/'>
                 <li className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">Home</li>
               </Link>
-              <Link href='#about'>
+              <Link href='/#about' scroll={false}>
                 <li className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">About</li>
               </Link>
-              <Link href='#skill'>
-                <li className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">Skill</li>
+              <Link href='/#experience' scroll={false}>
+                <li className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">Experience</li>
               </Link>
-              <Link href='#project'>
+              <Link href='/#project' scroll={false}>
                 <li className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">Project</li>
-              </Link>
-              <Link href='#contact'>
-                <li className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">Contact</li>
               </Link>
               </ul>
             </div>
