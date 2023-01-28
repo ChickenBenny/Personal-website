@@ -77,17 +77,17 @@ const Navbar = () => {
             <div className='border-b border-gray-300 my-4 text-black' />
             <div>
               <ul>
-              <Link href='/'>
-                <li className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">Home</li>
+              <Link href='/#hero' scroll={false}>
+                <li onClick={() => setShow(false)} className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">Home</li>
               </Link>
               <Link href='/#about' scroll={false}>
-                <li className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">About</li>
+                <li onClick={() => setShow(false)} className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">About</li>
               </Link>
               <Link href='/#experience' scroll={false}>
-                <li className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">Experience</li>
+                <li onClick={() => setShow(false)} className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">Experience</li>
               </Link>
               <Link href='/#project' scroll={false}>
-                <li className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">Project</li>
+                <li onClick={() => setShow(false)} className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">Project</li>
               </Link>
               </ul>
             </div>
