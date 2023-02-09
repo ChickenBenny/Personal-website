@@ -11,7 +11,7 @@ const Project = () => {
   return (
     <div id='project' className='w-full min-h-screen text-center'>
       <div className='max-w-screen-xl mx-auto  px-2 py-16'>
-        <h2 className='py-2 text-2xl text-slate-200'>
+        <h2 className='pt-6 pb-2 text-2xl text-slate-200'>
           Project
         </h2>
         <h2 className='text-amber-300'>
