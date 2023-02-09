@@ -6,16 +6,21 @@ import redisCheatsheet from "@/public/assets/projects/redis_cheatsheet.png";
 import scrapyEtl from "@/public/assets/projects/scrapy_etl.png";
 import vaeStock from "@/public/assets/projects/vae_stock.png";
 import ProjectContainer from "../ProjectContainer";
+import Achievement from "../Achievement";
 
 const Project = () => {
   return (
     <div id='project' className='w-full min-h-screen text-center'>
       <div className='max-w-screen-xl mx-auto  px-2 py-16'>
         <h2 className='pt-6 pb-2 text-2xl text-slate-200'>
-          Project
+          PROJECT
         </h2>
         <h2 className='text-amber-300'>
-          What I've Built
+          Project achievements
+        </h2>       
+        <Achievement />
+        <h2 className='text-amber-300'>
+          What I&apos;ve Built
         </h2>
         <div className='my-6 grid md:grid-cols-2 gap-8'>
           <ProjectContainer
