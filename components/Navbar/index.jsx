@@ -93,16 +93,16 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4 text-black' />
             <div className='flex justify-between items-center py-4'>
-              <a className='pl-4' href='https://www.linkedin.com/in/jen-hung-hsiao-4259651b5/' target='_blank'>
+              <a className='pl-4' href='https://www.linkedin.com/in/jen-hung-hsiao-4259651b5/' target='_blank' rel="noreferrer">
                 <BsLinkedin className='text-4xl text-black' />
               </a>
-              <a className='pl-4' href='https://github.com/ChickenBenny' target='_blank'>
+              <a className='pl-4' href='https://github.com/ChickenBenny' target='_blank' rel="noreferrer">
                 <BsGithub className='text-4xl text-black' />
               </a>
-              <a className='pl-4' href='https://medium.com/@ChickenBenny' target='_blank'>
+              <a className='pl-4' href='https://medium.com/@ChickenBenny' target='_blank' rel="noreferrer">
                 <BsMedium className='text-4xl text-black' />
               </a>            
-              <a className='pl-4' href='https://www.facebook.com/profile.php?id=100000226069203' target='_blank'>
+              <a className='pl-4' href='https://www.facebook.com/profile.php?id=100000226069203' target='_blank' rel="noreferrer">
                 <BsFacebook className='text-4xl text-black' />
               </a>
             </div>
