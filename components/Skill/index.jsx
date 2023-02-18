@@ -1,7 +1,7 @@
 import React from "react";
 import { SiRubyonrails, SiFastapi, SiRedis, SiPostgresql, 
   SiMysql, SiReact, SiApacheairflow, SiPytorch, SiLinux,
-  SiDocker, SiKeras, SiHtml5, SiCss3, SiJavascript } 
+  SiDocker, SiAmazonaws, SiTerraform } 
   from "react-icons/si";
 
 const Skill = () => {
@@ -111,6 +111,26 @@ const Skill = () => {
           </div>
         </div>
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='grid grid-cols-2 gap-4 justify-center items-center'>         
+            <div className='m-auto'>
+              <SiTerraform size='2rem' />
+            </div>
+            <div className='flex flex-col items-center justify-center'>
+              <h3>Terraform</h3>
+            </div>
+          </div>
+        </div>        
+        <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+            <div className='m-auto'>
+              <SiAmazonaws size='2rem' />
+            </div>
+            <div className='flex flex-col items-center justify-center'>
+              <h3>AWS</h3>
+            </div>
+          </div>
+        </div>
+        <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
           <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
               <SiPytorch size='2rem' />
@@ -120,17 +140,7 @@ const Skill = () => {
             </div>
           </div>
         </div>
-        <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-          <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-            <div className='m-auto'>
-              <SiKeras size='2rem' />
-            </div>
-            <div className='flex flex-col items-center justify-center'>
-              <h3>Keras</h3>
-            </div>
-          </div>
-        </div>
-      </div>
+      </div>     
     </div>
   )
 }
