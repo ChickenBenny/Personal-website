@@ -22,13 +22,25 @@ const Experience = () => {
                 Software Engineer Intern
               </p>
               <p className='text-lg text-gray-400'>
-                - Build B2B2C Web Platform using Ruby on Rails, React and MySQL. 
+                - Build talent recommended service with cronJob and backend API.
               </p>
               <p className='text-lg text-gray-400'>
-                - Develop a contract system that enables clients to publish their job listings and information.
+                - Build a contract service with Pay2Go API.
               </p>
               <p className='text-lg text-gray-400'>
-                - Implementing unit and integration using RSpec and e2e tests with Cypress, ensuring the reliability of the system.
+                - Build credit card auto renew service with Taypay API.
+              </p>
+              <p className='text-lg text-gray-400'>
+                - Build frontend components and integrate it with a backend API.
+              </p>
+              <p className='text-lg text-gray-400'>
+                - Implement end-to-end testing with the web platform using Cypress.
+              </p>
+              <p className='text-lg text-gray-400'>
+                - Implement unit test and integration test with Rspec.
+              </p>
+              <p className='text-lg text-gray-400'>
+                - Participate sprint planning, refinement and code review every week.
               </p>
             </li>
             <li class="mb-10 ml-4">
