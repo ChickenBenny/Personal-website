@@ -9,12 +9,15 @@ const Hero = () => {
           <h1 className='py-4 text-slate-200'>
             Hello, I&apos;m <span className='text-[#5651e5]'>Benny Hsiao</span>
           </h1>
-          <h2 className='py-2 text-sky-600'>
+          <h2 className='hidden md:flex py-2 text-sky-600'>
             Backend | Machine Learning | Finance
           </h2>
+          <h2 className='md:hidden py-2 text-sky-600'>
+            Backend | Machine Learning
+          </h2>          
           <p className='py-4 text-gray-400 m-auto'>
-            I&apos;m a backend developer and used to be an auditor in PwC. <br />
-            Passion in web development, machine learning and fintech technology. <br />
+            I&apos;m a backend developer and used to be an auditor. <br />
+            Passion in web development and machine learning technology. <br />
           </p>
           <div className='flex item-center justify-between m-auto py-4 px-6'>
             <div className='mx-4 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>

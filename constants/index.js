@@ -5,7 +5,7 @@ import { SiRubyonrails, SiFastapi, SiRedis, SiPostgresql,
 
 export const WebSkills = [
   {
-    name: "Ruby on Rails",
+    name: "ROR",
     icon: <SiRubyonrails size='2rem' />,
   },
   {
@@ -21,7 +21,7 @@ export const WebSkills = [
     icon: <SiRedis size='2rem' />,
   },
   {
-    name: "PostgreSQL",
+    name: "Postgre",
     icon: <SiPostgresql size='2rem' />,
   },
   {
@@ -40,7 +40,7 @@ export const WebSkills = [
 
 export const DataSkills = [
   {
-    name: "Apache Airflow",
+    name: "Airflow",
     icon: <SiApacheairflow size='2rem' />,
   },
   {
@@ -48,7 +48,7 @@ export const DataSkills = [
     icon: <SiPytorch size='2rem' />,
   },
   {
-    name: "Amazon Web Services",
+    name: "AWS",
     icon: <SiAmazonaws size='2rem' />,
   },
   {
